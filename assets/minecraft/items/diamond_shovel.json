@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "sapphire_shovel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/sapphire_shovel"
+        }
+      },
+      {
+        "when": "malachite_shovel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/malachite_shovel"
+        }
+      },
+      {
+        "when": "ruby_shovel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/ruby_shovel"
+        }
+      },
+      {
+        "when": "topaz_shovel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/topaz_shovel"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_shovel"
+    }
+  }
+}

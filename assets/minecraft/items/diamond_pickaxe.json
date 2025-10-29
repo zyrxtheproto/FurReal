@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "sapphire_pickaxe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/sapphire_pickaxe"
+        }
+      },
+      {
+        "when": "malachite_pickaxe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/malachite_pickaxe"
+        }
+      },
+      {
+        "when": "ruby_pickaxe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/ruby_pickaxe"
+        }
+      },
+      {
+        "when": "topaz_pickaxe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/topaz_pickaxe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_pickaxe"
+    }
+  }
+}

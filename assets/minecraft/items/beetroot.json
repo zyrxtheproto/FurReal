@@ -1,0 +1,47 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "candy_red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/candy_red"
+        }
+      },
+      {
+        "when": "candy_yellow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/candy_yellow"
+        }
+      },
+      {
+        "when": "candy_green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/candy_green"
+        }
+      },
+      {
+        "when": "candy_pumpkin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/candy_pumpkin"
+        }
+      },
+      {
+        "when": "candy_orange",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/candy_orange"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/beetroot"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "hunter_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/hunter_sword"
+        }
+      },
+      {
+        "when": "forest_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/forest_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_sword"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "ruby_gem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/ruby_gem"
+        }
+      },
+      {
+        "when": "malachite_gem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/malachite_gem"
+        }
+      },
+      {
+        "when": "sapphire_gem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/sapphire_gem"
+        }
+      },
+      {
+        "when": "topaz_gem",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/topaz_gem"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/emerald"
+    }
+  }
+}

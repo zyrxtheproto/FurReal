@@ -1,0 +1,61 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "water_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/water_sword"
+        }
+      },
+      {
+        "when": "electric_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/electric_sword"
+        }
+      },
+     {
+        "when": "pumpkin_scythe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/pumpkin_scythe"
+        }
+      },
+      {
+        "when": "ice_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/ice_sword"
+        }
+      },
+      {
+        "when": "pumpkin_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/pumpkin_sword"
+        }
+      },
+      {
+        "when": "fire_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/fire_sword"
+        }
+      },
+      {
+        "when": "green_sword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/green_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_sword"
+    }
+  }
+}

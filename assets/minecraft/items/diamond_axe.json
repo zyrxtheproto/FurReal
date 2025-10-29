@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "sapphire_axe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/sapphire_axe"
+        }
+      },
+      {
+        "when": "malachite_axe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/malachite_axe"
+        }
+      },
+      {
+        "when": "ruby_axe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/ruby_axe"
+        }
+      },
+      {
+        "when": "topaz_axe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item_model_guide:item/topaz_axe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_axe"
+    }
+  }
+}
