@@ -1,11 +1,11 @@
 
-# FurReal
+# ProtoRedux
 
-Repository meant for easy downloads of files needed for certain FurReal projects.
+Repository meant for easy downloads of files needed for certain ProtoRedux projects.
 
 
 
-## FurReal MC-Server
+## ProtoRedux MC-Server
 
 trailer-video
 
